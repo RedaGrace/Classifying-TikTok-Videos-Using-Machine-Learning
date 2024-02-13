@@ -13,11 +13,13 @@ TikTok users can report videos that they believe violate the platform's terms of
 
 **Data Understanding**
 
-The data consisted of approximately 19,382 observations and 12 features. Each row represents a distinct TikTok video that presents either a claim or an opinion and the accompanying metadata about that video. The features included information on the video duration, video transcription, views count, likes count, and author-verified status. The bar chart below shows the combination of claim status and verification status.
+The data consisted of approximately 19,382 observations and 12 features. Each row represents a distinct TikTok video that presents either a claim or an opinion and the accompanying metadata about that video. The features included information on the video duration, video transcription, views count, likes count, and verified status. The bar chart below shows the combination of claim status and verification status.
 
 ![](images/claims-by-verification.png)
 
+Approximately 94.2% of the dataset represents videos posted by unverified accounts and 5.8% represents videos posted by verified accounts. Approximately 50.3% of the dataset represents claims and 49.7% represents opinions, so the outcome variable is balanced. In connection with this, a feature was engineered to represent the distribution of video_transcription_text length for claims and opinions.
 
+![](images/transcription.png)
 
 
 
