@@ -14,7 +14,7 @@ TikTok users can report videos that they believe violate the platform's terms of
 **Data Understanding**
 
 The data consisted of approximately 19,382 observations and 12 features. Each row represents a distinct TikTok video that presents either a claim or an opinion and the accompanying metadata about that video. The features included information on the video duration, video transcription, views count, likes count, and author-verified status. The bar chart below shows the combination of claim status and verification status.
-![]()
+![](images/claims-by-verification.png)
 
 
 
