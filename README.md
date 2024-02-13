@@ -17,9 +17,14 @@ The data consisted of approximately 19,382 observations and 12 features. Each ro
 
 ![](images/claims-by-verification.png)
 
-Approximately 94.2% of the dataset represents videos posted by unverified accounts and 5.8% represents videos posted by verified accounts. Approximately 50.3% of the dataset represents claims and 49.7% represents opinions, so the outcome variable is balanced. In connection with this, a feature was engineered to represent the distribution of video_transcription_text length for claims and opinions.
+Approximately 50.3% of the dataset represents claims and 49.7% represents opinions, so the outcome variable is balanced. In connection with this, a feature was engineered to represent the distribution of video_transcription_text length for claims and opinions.
 
 ![](images/transcription.png)
+
+**Modeling and Evaluation**
+
+A random forest model comprising 200 decision trees was used to determine feature importance. The plot below shows that trip duration, distance, and fare cost were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 99% accuracy and 99% precision.
+![](images/feature-importances.png)
 
 
 
