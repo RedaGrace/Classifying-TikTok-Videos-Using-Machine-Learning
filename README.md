@@ -23,10 +23,10 @@ Approximately 50.3% of the dataset represents claims and 49.7% represents opinio
 
 **Modeling and Evaluation**
 
-A random forest model comprising 200 decision trees was used to determine feature importance. The plot below shows that trip duration, distance, and fare cost were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 99% accuracy and 99% precision.
+A random forest model comprising 200 decision trees determined feature importance. The plot below shows that trip duration, distance, and fare cost were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 99% accuracy and 99% precision.
 ![](images/feature-importances.png)
 
 
 **Conclusion**
 
-This model can benefit TikTok human moderators by reducing the backlog of user reports and prioritizing them more efficiently. A machine learning model would greatly assist in the effort to present human moderators with videos that are most likely to be in violation of TikTok's terms of service. >> Increase user satisfaction
+This model can benefit TikTok human moderators by reducing the backlog of user reports and prioritizing them more efficiently. This machine learning model would greatly assist in the effort to present human moderators with videos that are most likely to violate TikTok's terms of service.
