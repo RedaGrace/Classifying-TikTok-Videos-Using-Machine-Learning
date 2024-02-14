@@ -2,7 +2,7 @@
 
 **Overview**
 
-The goal of this project was to create an XGBoost and random forest model to help identify claims and opinions. The final random forest model was performed with 99% accuracy. Based on the model, the video_view_count,	video_like_count,	video_share_count, and video_download_count were most influential in determining whether a TikTok video presents a "claim" or presents an "opinion".
+This project aimed to create an XGBoost and random forest model to help identify claims and opinions. The final random forest model was performed with 99% accuracy. Based on the model, the video_view_count,	video_like_count,	video_share_count, and video_download_count were most influential in determining whether a TikTok video presents a "claim" or presents an "opinion".
 
 The purpose of this model is to mitigate misinformation in videos on the TikTok platform. With a successful prediction model, TikTok can reduce the backlog of user reports and prioritize them more efficiently.
 
@@ -29,4 +29,4 @@ A random forest model comprising 200 decision trees was used to determine featur
 
 **Conclusion**
 
-This model can benefit TikTok human moderators by reducing the backlog of user reports and prioritizing them more efficiently. 
+This model can benefit TikTok human moderators by reducing the backlog of user reports and prioritizing them more efficiently. A machine learning model would greatly assist in the effort to present human moderators with videos that are most likely to be in violation of TikTok's terms of service. >> Increase user satisfaction
